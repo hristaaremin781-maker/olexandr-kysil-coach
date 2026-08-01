@@ -323,6 +323,12 @@
   }
   .section-head h2{font-size:clamp(30px,4vw,48px); max-width:640px;}
   .section-head p{color:var(--text-dim); max-width:340px; font-size:15px;}
+  @media (max-width: 768px) {
+  .hero {
+    background-position: 65% center;
+    background-attachment: scroll;
+  }
+}
 
   /* ===== SCENARIO ===== */
   .scenario-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
@@ -1391,10 +1397,4 @@
 </html>
 
 
-
-@media (max-width: 768px) {
-  .hero {
-    background-position: 65% center;
-    background-attachment: scroll;
-  }
 }
